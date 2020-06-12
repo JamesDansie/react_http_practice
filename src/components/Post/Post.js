@@ -1,4 +1,7 @@
 import React from 'react';
+// makes the component route aware
+// then wrap the post in export
+// import {withRouter} from 'react-router-dom';
 
 import './Post.css';
 

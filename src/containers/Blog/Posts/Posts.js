@@ -44,10 +44,11 @@ class Posts extends Component {
                     />
             });
         }
-        <section className="Posts">
-            {posts}
-        </section>
-        return posts;
+        return(
+            <section className="Posts">
+                {posts}
+            </section>
+        );
     }
 }
 
